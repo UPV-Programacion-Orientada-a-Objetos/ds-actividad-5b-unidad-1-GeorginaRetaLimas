@@ -28,8 +28,8 @@ class MatrizBase {
         }
 
         // Getters
-        int getFilas() const{ return _filas}
-        int getColumnas() const{ return _columnas}
+        int getFilas() const{ return _filas; }  
+        int getColumnas() const{ return _columnas; }
 };
 
 #endif

@@ -49,7 +49,7 @@ class MatrizDinamica : public MatrizBase<T> {
 
         // Destructor
         ~MatrizDinamica(){
-            std::cout<<"Destryendo Matriz Dinámica ( "<<_filas<<" x "<<_columnas<<")"<<std::endl;
+            std::cout<<"Destruyendo Matriz Dinámica ( "<<this->_filas<<" x "<<this->_columnas<<")"<<std::endl;
             liberarMemoria();
         }
 
